@@ -10,7 +10,7 @@ import { HireMe2 } from "@/components/HireMe2";
 import proj1 from "../../public/images/projects/africinnovate.png";
 import proj4 from "../../public/images/projects/innovation.png";
 import proj2 from "../../public/images/projects/andy.png";
-import proj3 from "../../public/images/projects/astraLemon.png";
+import proj3 from "../../public/images/projects/astralemon.png";
 import proj5 from "../../public/images/projects/supplychain.png";
 import proj6 from "../../public/images/projects/your.png";
 
