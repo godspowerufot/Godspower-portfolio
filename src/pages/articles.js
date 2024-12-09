@@ -3,7 +3,7 @@ import { motion, useMotionValue } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import blog1 from "../../public/images/articles/collaboration.jpg";
-import blog2 from "../../public/images/articles/AfricInnovate.webp";
+import blog2 from "../../public/images/articles/afri.webp";
 import blog3 from "../../public/images/articles/defi.png";
 
 import Layout from "@/components/Layout";
