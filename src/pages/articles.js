@@ -2,9 +2,9 @@ import AnimatedText from "@/components/AnimatedText";
 import { motion, useMotionValue } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
-import blog1 from "../../public/images/articles/Clay-Gatsby-theme.webp";
-import blog2 from "../../public/images/articles/My-MacBook-Setup-For-Development-2024.webp";
-import loading from "../../public/images/articles/GTA6-VICE.gif";
+import blog1 from "../../public/images/articles/collaboration.jpg";
+import blog2 from "../../public/images/articles/AfricInnovate.webp";
+import blog3 from "../../public/images/articles/defi.png";
 
 import Layout from "@/components/Layout";
 import Link from "next/link";
@@ -150,18 +150,25 @@ export default function Articles() {
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
               img={blog1}
-              title="Unlocking the Power of Gatsby & Netlify"
-              time="2 min read"
-              summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
-              link="https://travislord.xyz/articles/guide-to-clay-theme-gatsby-web-app"
+              title="Navigating My First Team Collaboration: A Frontend Web Development Journey"
+              time="3 min read"
+              summary="In the ever-evolving realm of web development, every aspiring coder’s journey is characterized by milestones that shape their growth. My foray into team collaboration commenced on August 23rd when I proactively reached out to a staff member at Premium Model, a dynamic company renowned for its creative ventures.."
+              link="https://medium.com/@ufotgodspower8/navigating-my-first-team-collaboration-a-frontend-web-development-journey-ebc46ac5ad98"
             />
 
             <FeaturedArticle
+              img={blog3}
+              title="Composability of DeFi"
+              time="5 min read"
+              summary="Decentralised finance (often stylised as DeFi) provides financial instruments and services through smart contracts on a programmable....."
+              link="https://medium.com/@ufotgodspower8/composability-of-defi-300963f9ce52"
+            />
+            <FeaturedArticle
               img={blog2}
-              title="My MacBook Setup For Development 2024"
-              time="4 min read"
-              summary="As we step into another year of exciting journeys, I figured it was the perfect moment to unveil the newest adjustments and tools I'm using in my MacBook setup."
-              link="https://travislord.xyz/articles/top-macbook-setup-tips-for-2024"
+              title="Unleashing the Power of Learning: My Journey with AfricInnovate"
+              time="2 min read"
+              summary="On August 24th, I embarked on an exciting journey as I began my internship at AfricInnovate....."
+              link="https://medium.com/@ufotgodspower8/unleashing-the-power-of-learning-my-journey-with-africinnovate-19ebb17f3a41"
             />
           </ul>
 
@@ -172,10 +179,9 @@ export default function Articles() {
           <ul className="flex flex-col items-center relative">
             <Article
               title="Adding more soon, thanks for the interest!"
-              img={loading}
               time="1 min read"
               date=""
-              link="https://github.com/lilxyzz/"
+              link="/articles/"
             />
           </ul>
 

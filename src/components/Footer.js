@@ -10,19 +10,18 @@ const Footer = () => {
     "
     >
       <Layout className="py-8 flex items-center justify-center lg:flex-col lg:py-6">
+      
+      <div className="flex items-center lg:py-2 ml-2">
+      
+      <Link
+        href="https://travislord.xyz/"
+        className="underline underline-offset-2"
+      >
+     Godspower Ufot
+      </Link>
+    </div>
         <span>&copy; {new Date().getFullYear()}</span>
 
-        <div className="flex items-center lg:py-2 ml-2">
-          Built <span className="text-2xl px-1"></span>
-          {""}
-          by&nbsp;
-          <Link
-            href="https://travislord.xyz/"
-            className="underline underline-offset-2"
-          >
-            Travis Lord
-          </Link>
-        </div>
       </Layout>
     </footer>
   );

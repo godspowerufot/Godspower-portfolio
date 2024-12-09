@@ -8,6 +8,7 @@ import {
   GithubIcon,
   LinkedInIcon,
   MoonIcon,
+  TwitterIcon,
   SunIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
@@ -119,7 +120,7 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mr-3"
-            href="https://github.com/lilxyzz"
+            href="https://github.com/godspowerufot"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my GitHub profile"
@@ -130,7 +131,7 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mx-3 bg-light rounded-full"
-            href="https://medium.com/@travis.lord"
+            href="https://medium.com/@ufotgodspower8"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my Medium profile"
@@ -141,12 +142,12 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
+            href="https://x.com/ufotgodspower8"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my Dev.to profile"
           >
-            <DevIcon />
+            <TwitterIcon />
           </motion.a>
 
           <motion.a

@@ -64,27 +64,21 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                I'm Riley, a dedicated web developer at Stellar Innovations,
-                where I specialize in creating dynamic and user-centric web
-                experiences. With over a decade of experience in the industry, I
-                have honed my skills in both front-end and back-end
-                technologies, allowing me to deliver responsive and
-                high-performance websites and applications.
+              I am Godspower Ufot, a passionate and detail-oriented frontend web developer with a strong interest in blockchain technology. Over the years, I’ve honed my skills in building visually appealing, user-centric web experiences that balance aesthetics with functionality. With expertise in HTML, CSS, JavaScript, and React, I strive to create responsive, high-performance interfaces that cater to diverse user needs.
               </p>
               <p className="my-4 font-medium">
-                At Stellar Innovations, I've had the opportunity to work on
-                numerous high-profile projects that have challenged and expanded
-                my expertise. My technical skill set includes HTML, CSS,
-                JavaScript, React, and Node.js, among other technologies. One of
-                my notable projects involved developing a comprehensive
-                e-commerce platform that streamlined the user experience and
-                significantly boosted the client's sales. Another project I’m
+              Beyond coding, I am deeply committed to the growth of the tech community. I actively participate in hackathons, conferences, and meetups, where I mentor aspiring developers and share insights that inspire others to unlock their potential in the tech ecosystem.
+
+When I’m not coding or exploring blockchain innovations, I immerse myself in anime, finding creative inspiration in its storytelling and artistry.
+
+Another project I’m
                 particularly proud of was creating an interactive web
                 application for a major event, which received widespread acclaim
                 for its intuitive design and seamless performance.
+                Let’s collaborate to create something extraordinary that blends technology, design, and innovation seamlessly! 
               </p>
               <p className="my-4 font-medium">
-                P.s I'm a big fan of anime and not a real person ✌️.
+                P.s I'm a big fan of anime  ✌️.
               </p>
             </div>
             <div
@@ -108,46 +102,7 @@ export default function About() {
               33vw"
               />
             </div>
-            <div
-              className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
-            xl:items-center md:order-3"
-            >
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={1461} />+
-                </span>
-                <h3
-                  className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm"
-                >
-                  Days of Coding
-                </h3>
-              </div>
-
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={500} />
-                </span>
-                <h3
-                  className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm"
-                >
-                  Bugs Made
-                </h3>
-              </div>
-
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={499} />
-                </span>
-                <h3
-                  className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm"
-                >
-                  Bugs Crushed
-                </h3>
-              </div>
-            </div>
+       
             <HireMe2 />
           </div>
 

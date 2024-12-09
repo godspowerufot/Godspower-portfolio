@@ -7,8 +7,12 @@ import Link from "next/link";
 import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
-import proj1 from "../../public/images/projects/clay-theme.png";
-import loading from "../../public/images/articles/GTA6-VICE.gif";
+import proj1 from "../../public/images/projects/africinnovate.png";
+import proj4 from "../../public/images/projects/innovation.png";
+import proj2 from "../../public/images/projects/andy.png";
+import proj3 from "../../public/images/projects/astraLemon.png";
+import proj5 from "../../public/images/projects/supplychain.png";
+import proj6 from "../../public/images/projects/your.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion, useMotionValue } from "framer-motion";
@@ -139,14 +143,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
           {summary}
         </p>
         <div className="mt-2 flex items-center">
-          <Link
-            href={github}
-            target={"_blank"}
-            className="w-10"
-            aria-label="github link"
-          >
-            <GithubIcon />
-          </Link>
+      
           <Link
             href={link}
             className="ml-4 rounded-lg
@@ -165,7 +162,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
   );
 };
 
-const Project = ({ title, type, img, link, tools }) => {
+const Project = ({ title, type,summary, img, link, tools }) => {
   return (
     <article
       className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl 
@@ -207,6 +204,9 @@ const Project = ({ title, type, img, link, tools }) => {
             {title}
           </h2>
         </Link>
+        <p className=" my-2 rounded-md font-medium text-dark dark:text-light sm:text-sm">
+          {summary}
+        </p>
         <div className="flex w-full items-center  justify-between">
           <Link
             href={link}
@@ -231,10 +231,10 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | By NexTemp</title>
+        <title>Projects | By Godspower</title>
         <meta
           name="description"
-          content="NexTemp, A open-source portfolio theme built with Nextjs"
+          content="Godspower ufot , A Portfolio to show my works"
         />
       </Head>
 
@@ -250,36 +250,72 @@ export default function Projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
+                type=" Development"
+                tools="NextJS | CSS | JavaScript | AOS"
+                title="AfricInnovate"
+                summary="For the Africinnovate V2 website, I developed a platform tailored for students to showcase Africinnovate's services. I integrated APIs to dynamically display blog content and incorporated a Content Management System (CMS) to allow easy content updates. This project enhanced my skills in web development, API integration, and CMS implementation."
                 img={proj1}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                link="https://www.africinnovate.com/"
+                github=""
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Development"
+                tools="Nextjs|TailwindCss"
+                title="Andy "
+                summary="A portfolio website for a real estate agent, featuring optimized images and videos to enhance user experience and site performance. The platform showcases property listings, agent services, and engaging media to attract potential clients."
+                img={proj2}
+                date="2024"
+                link="https://andy-website-tau.vercel.app/"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                img={proj1}
-                date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                tools="NextJS|Tailwind"
+                title="AstraLemon"
+                img={proj3}
+                summary=" ** The website, currently in development, helps users grow their Instagram followers by offering automated engagement tools and performance monitoring through a detailed dashboard. A VPN is required for secure access, ensuring privacy and protection while using the platform's features. (devlopment)."
+
+                date="2024"
+                link="https://astralemon.vercel.app/"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                img={proj1}
+                tools="HTML|CSS|JAVASCRIPT|AOS"
+                title="AKSU INNOVATION SUMMIT"
+                img={proj4}
+                summary=" The AKSU Innovation Summit website is designed to provide information about the Nacos Week in conjunction with the summit, catering to over 300 participants. It allows users to register for the event, access event details, and stay updated on the latest news and activities related to the summit.."
+
+                date="2024"
+                link="https://nacos-aksu.onrender.com/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Design & Development"
+                tools="HTML|CSS|JAVASCRIPT"
+                title="YOURVARSITY"
+                img={proj6}
+                summary="YourVarsity is a landing page for a student enrollment platform that allows teachers to offer and manage their courses. It provides a seamless experience for students to browse available courses, enroll, and track their learning progress.(development) "
+
+                date="2024"
+                link="https://varsity-rho.vercel.app/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Design & Development"
+                tools="React|Solidity|thirdweb"
+                title="Cosmetic Tracker"
+                img={proj5}
+                summary="supply chain system for cosmetics designed to ensure transparency and accountability at every stage of production. It allows stakeholders to track ETH price, building trust and confidence in the supply chain.."
                 date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                link="https://supplychain-six.vercel.app/"
               />
             </div>
           </div>
@@ -288,10 +324,9 @@ export default function Projects() {
             <ul className="flex flex-col items-center relative pt-16">
               <Article
                 title="Adding more soon, thanks for the interest!"
-                img={loading}
                 time="1 min read"
                 date=""
-                link="https://github.com/lilxyzz/"
+                link="/articles/"
               />
             </ul>
 
