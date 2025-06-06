@@ -76,6 +76,20 @@ One of my key achievements during my internship was leveraging Next.js to develo
             work="I contributed to the development of dashboards and portfolio websites for clients while I was employed as a frontend developer at Media Bear. I was able to work directly with teams in this job to provide customised solutions that satisfied clients.
 My experience at Media Bear was crucial in helping me hone my abilities to pay attention to detail, communicate better, and complete assignments on schedule. Additionally, I learnt a lot about new tools and technologies like Firebase, which increased my technical proficiency and flexibility in a field that is changing quickly."
           />
+          <Details
+            position="Frontend Lead Website Developer"
+            company="Tradersmentor "
+            time="2025"
+            companyLink="https://tradersmentorshub.com/"
+            work="I worked as the Frontend Lead for Traders Mentors Hub, collaborating with teammates to build the platform using core web technologies, implementing API integrations, Redux for state management, and WebSockets for real-time features.
+"   />
+         
+          <Details
+            position="Frontend Lead Website Developer"
+            company="Ilabs"
+            time="2025"
+            companyLink="https://ilabs.world"
+            work="I worked as the Frontend Lead for Traders Mentors Hub, collaborating with teammates to build the platform using core web technologies, implementing API integrations, Redux for state management, and WebSockets for real-time features. I also served as the frontend lead at iLabs, delivering high-quality solutions that satisfied clients across the globe."   />
         </ul>
       </div>
       <div className="mt-40 flex items-center justify-between gap-3 grid-cols-2">

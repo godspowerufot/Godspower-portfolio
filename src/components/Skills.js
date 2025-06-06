@@ -55,6 +55,7 @@ const Skills = () => {
         <Skill name="Firebase" x="0vw" y="-18vw" />
         <Skill name="Solidity" x="35vw" y="-10vw" />
         <Skill name="EtherJs" x="31vw" y="10vw" />
+        <Skill name="ReduxAPI" x="38vw" y="10vw" />
       </div>
     </>
   );

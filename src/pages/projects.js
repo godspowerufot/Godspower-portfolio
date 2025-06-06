@@ -9,6 +9,8 @@ import { HireMe2 } from "@/components/HireMe2";
 
 import proj1 from "../../public/images/projects/africinnovate.png";
 import proj4 from "../../public/images/projects/innovation.png";
+import proj8 from "../../public/images/projects/innovations.png";
+import proj9 from "../../public/images/projects/tradersmentor.png";
 import proj2 from "../../public/images/projects/andy.png";
 import proj3 from "../../public/images/projects/astralemon.png";
 import proj5 from "../../public/images/projects/supplychain.png";
@@ -273,11 +275,25 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
+                type="Development"
+                tools="Reactjs|TailwindCss"
+                title="Ilabs "
+                summary=" Innovations Labs is a forward-thinking SaaS and EdTech startup committed to 
+building, innovating, and decentralizing technology solutions across software 
+development, design, and AI integration.
+"
+                img={proj8}
+                date="2025"
+                link="https://ilabs.world/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
                 type="Design & Development"
                 tools="NextJS|Tailwind"
                 title="AstraLemon"
                 img={proj3}
-                summary=" ** The website, currently in development, helps users grow their Instagram followers by offering automated engagement tools and performance monitoring through a detailed dashboard. A VPN is required for secure access, ensuring privacy and protection while using the platform's features. (devlopment)."
+                summary=" ** The website,helps users grow their Instagram followers by offering automated engagement tools and performance monitoring through a detailed dashboard. A VPN is required for secure access, ensuring privacy and protection while using the platform's features. (devlopment)."
 
                 date="2024"
                 link="https://astralemon.vercel.app/"
@@ -305,6 +321,19 @@ export default function Projects() {
 
                 date="2024"
                 link="https://varsity-rho.vercel.app/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Design & Development"
+                tools="Reactjs"
+                title="TRADERS MENTOR HUB"
+                img={proj9}
+                summary="At TradersMentors Hub,  is to empower traders of all levels with the knowledge and skills needed to succeed in the financial markets.
+With a focus on education, community support, and practical application, we provide resources and mentorship to help you achieve your trading goals. "
+
+                date="2024"
+                link="https://tradersmentorshub.com"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
