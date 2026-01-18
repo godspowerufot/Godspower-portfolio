@@ -44,16 +44,20 @@ export default function Home() {
               />
               <div className="flex w-1/2 w-full items-center items-start lg:w-full  lg:!justify-center  sm:!justify-center  md:!text-center md:inline-block md:w-full">
                 <h2 className="animate-text bg-gradient-to-r from-lightGreen via-lightGreen to-slideGreen bg-clip-text text-transparent font-semibold capitalize !text-5xl xl:!text-4xl lg:!text-4xl md:!text-5xl sm:!text-3xl">
-                  I create engaging web experiences.
+                  Think of me as an artist who codes
                 </h2>
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:!text-sm">
-                I'm a front-end web developer at 
-                about creating dynamic and user-friendly web experiences. With a
-                keen eye for design and a robust understanding of front-end and
-                back-end technologies. I am skilled in using Reactjs to translate design to pixel-perfect websites with functional and clean code paradigms.
-                 I am able to adapt to a fast-paced learning environment and also eagerly learn new technologies to get the job done.
+                When I was younger, I discovered I could think and dream things into existence, but I wanted more than imagination, I wanted to build experiences people could actually touch and feel..<br />
+                <br />
+                That's when I found coding. It became the only way I could solve problems and bring my stories to life.
+                <br />
+                <br />
+                Now, as a front-end and blockchain web developer.
+
+                I create dynamic, user-friendly web experiences across Web2 and Web3. With React and a keen eye for design.    <br /> I translate concepts into pixel-perfect websites using clean, functional code.
+                I adapt fast, learn eagerly, and pick up new technologies to get the job done. Because for me, development isn't just about writing code,it's about crafting experiences that connect with people and turn dreams into reality."
               </p>
               <div className="mt-2 flex items-center self-start gap-3 grid-cols-2 lg:self-center">
                 <Link
@@ -82,7 +86,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-     
+
         <HireMe />
       </article>
     </>

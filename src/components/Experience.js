@@ -29,7 +29,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <span className="capitalize text-dark/75 font-medium dark:text-light/50 xs:text-sm">
           {time} | {address}
         </span>
-        <p className="font-medium w-full md:text-sm"> {work}</p>
+        <div className="font-medium w-full md:text-sm"> {work}</div>
       </motion.div>
     </li>
   );
@@ -58,6 +58,127 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Lead Frontend Web Developer"
+            company="Quivox Consulting "
+            time=" 2025 – Present" // Assuming Present based on start date
+            address="Remote"
+            companyLink="#"
+            work={
+              <ul className="list-disc ml-4">
+                <li>
+                  Built a real estate web application with a clean design system
+                  serving multiple users and agents
+                </li>
+                <li>
+                  Implemented performance testing strategies for fast load times
+                  and optimal user experience
+                </li>
+                <li>
+                  Crafted scalable architecture ensuring full responsiveness
+                  across all devices
+                </li>
+                <li>
+                  Designed and developed the Quivox Consulting corporate
+                  website, showcasing the company&apos;s services and value
+                  proposition
+                </li>
+              </ul>
+            }
+          />
+          <Details
+            position="Frontend Developer(contract)"
+            company="JobMingle "
+            time="2024 – 2025"
+            address="Remote"
+            companyLink="#"
+            work={
+              <ul className="list-disc ml-4">
+                <li>
+                  Collaborated with cross-functional team members using Git for
+                  version control and code management
+                </li>
+                <li>
+                  Designed and developed the frontend for a learning course and
+                  job platform serving 3,000+ users
+                </li>
+                <li>
+                  Implemented features enabling 884+ job postings and course
+                  offerings
+                </li>
+              </ul>
+            }
+          />
+          <Details
+            position="Frontend Developer (contract)"
+            company="Luxgroup Company "
+            time="June 2025 – September 2025"
+            address="Remote, UK"
+            companyLink="#"
+            work={
+              <ul className="list-disc ml-4">
+                <li>
+                  Developed 3 major brand websites from UI design to full functionality
+                </li>
+                <li>
+                  Collaborated directly with cross-functional teams
+                </li>
+                <li>
+                  Transformed design mockups into production-ready frontend applications
+                </li>
+              </ul>
+            }
+          />
+          <Details
+            position="Frontend Developer"
+            company="iLabs "
+            time="January 2025 – December 2025"
+            address="Remote"
+            companyLink="#"
+            work={
+              <ul className="list-disc ml-4">
+                <li>
+                  Led frontend development for multiple client projects serving
+                  global audiences
+                </li>
+                <li>
+                  Developed Faith Point AI, a faith-based application with 444+
+                  active users and adoption by several churches across Africa
+                </li>
+                <li>
+                  Implemented the iLabs company website with $2,000+ revenue
+                  generation
+                </li>
+                <li>
+                  Coordinated and managed a team of frontend developers,
+                  ensuring code quality and deadlines were adhered to
+                </li>
+              </ul>
+            }
+          />
+          <Details
+            position="Lead Frontend Developer(contract)"
+            company="Traders Mentor Hub "
+            time="2025"
+            address="Pretoria, South Africa"
+            companyLink="#"
+            work={
+              <ul className="list-disc ml-4">
+                <li>
+                  Implemented a real-time chat system and designed a clean,
+                  intuitive landing page
+                </li>
+                <li>
+                  Integrated YouTube, Zoom, and payment/subscription systems for
+                  a seamless user experience
+                </li>
+                <li>
+                  Built financial management features enabling users to track
+                  subscriptions and transactions
+                </li>
+              </ul>
+            }
+          />
+          <Details
             position=" Frontend Web Developer(Intern)"
             company="Africinnovate "
             time="2023 - 2024"
@@ -68,28 +189,6 @@ const Experience = () => {
 One of my key achievements during my internship was leveraging Next.js to develop a high-performing, SEO-optimized landing page. This user-friendly design not only enhanced user engagement."
           />
 
-          <Details
-            position="Frontend Website Developer"
-            company="Media Bear"
-            time="2024"
-            companyLink=""
-            work="I contributed to the development of dashboards and portfolio websites for clients while I was employed as a frontend developer at Media Bear. I was able to work directly with teams in this job to provide customised solutions that satisfied clients.
-My experience at Media Bear was crucial in helping me hone my abilities to pay attention to detail, communicate better, and complete assignments on schedule. Additionally, I learnt a lot about new tools and technologies like Firebase, which increased my technical proficiency and flexibility in a field that is changing quickly."
-          />
-          <Details
-            position="Frontend Lead Website Developer"
-            company="Tradersmentor "
-            time="2025"
-            companyLink="https://tradersmentorshub.com/"
-            work="I worked as the Frontend Lead for Traders Mentors Hub, collaborating with teammates to build the platform using core web technologies, implementing API integrations, Redux for state management, and WebSockets for real-time features.
-"   />
-         
-          <Details
-            position="Frontend Lead Website Developer"
-            company="Ilabs"
-            time="2025"
-            companyLink="https://ilabs.world"
-            work="I worked as the Frontend Lead for Traders Mentors Hub, collaborating with teammates to build the platform using core web technologies, implementing API integrations, Redux for state management, and WebSockets for real-time features. I also served as the frontend lead at iLabs, delivering high-quality solutions that satisfied clients across the globe."   />
         </ul>
       </div>
       <div className="mt-40 flex items-center justify-between gap-3 grid-cols-2">

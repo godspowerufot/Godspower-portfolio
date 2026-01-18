@@ -12,8 +12,8 @@ import proj4 from "../../public/images/projects/innovation.png";
 import proj8 from "../../public/images/projects/innovations.png";
 import proj9 from "../../public/images/projects/tradersmentor.png";
 import proj2 from "../../public/images/projects/andy.png";
-import proj3 from "../../public/images/projects/astralemon.png";
-import proj5 from "../../public/images/projects/supplychain.png";
+import proj3 from "../../public/hoydoon.png";
+import proj5 from "../../public/faithpoint.png";
 import proj6 from "../../public/images/projects/your.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -145,7 +145,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
           {summary}
         </p>
         <div className="mt-2 flex items-center">
-      
+
           <Link
             href={link}
             className="ml-4 rounded-lg
@@ -164,7 +164,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
   );
 };
 
-const Project = ({ title, type,summary, img, link, tools }) => {
+const Project = ({ title, type, summary, img, link, tools }) => {
   return (
     <article
       className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl 
@@ -291,38 +291,30 @@ development, design, and AI integration.
               <Project
                 type="Design & Development"
                 tools="NextJS|Tailwind"
-                title="AstraLemon"
+                title="Hoydoon"
                 img={proj3}
-                summary=" ** The website,helps users grow their Instagram followers by offering automated engagement tools and performance monitoring through a detailed dashboard. A VPN is required for secure access, ensuring privacy and protection while using the platform's features. (devlopment)."
+                summary=" Hoydoon.com is a real estate platform that helps people discover, buy, rent, or sell properties.available in Web-based platform
+Mobile apps (iOS and Android available)"
 
-                date="2024"
-                link="https://astralemon.vercel.app/"
+                date="2025"
+                link="https://hoydoon.com/"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Design & Development"
-                tools="HTML|CSS|JAVASCRIPT|AOS"
-                title="AKSU INNOVATION SUMMIT"
-                img={proj4}
-                summary=" The AKSU Innovation Summit website is designed to provide information about the Nacos Week in conjunction with the summit, catering to over 300 participants. It allows users to register for the event, access event details, and stay updated on the latest news and activities related to the summit.."
+                tools="NextJS|Tailwind"
+                title="
+FaithPoint AI"
+                img={proj5}
+                summary=" FaithPoint.ai is a church management platform powered by AI. The platform uses artificial intelligence to provide advanced tools specifically designed for church communities to grow and engage their members more effectively"
 
-                date="2024"
-                link="https://nacos-aksu.onrender.com/"
+                date="2025"
+                link="https://www.faithpoint.ai/"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Design & Development"
-                tools="HTML|CSS|JAVASCRIPT"
-                title="YOURVARSITY"
-                img={proj6}
-                summary="YourVarsity is a landing page for a student enrollment platform that allows teachers to offer and manage their courses. It provides a seamless experience for students to browse available courses, enroll, and track their learning progress.(development) "
 
-                date="2024"
-                link="https://varsity-rho.vercel.app/"
-              />
-            </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Design & Development"
@@ -336,17 +328,7 @@ With a focus on education, community support, and practical application, we prov
                 link="https://tradersmentorshub.com"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Design & Development"
-                tools="React|Solidity|thirdweb"
-                title="Cosmetic Tracker"
-                img={proj5}
-                summary="supply chain system for cosmetics designed to ensure transparency and accountability at every stage of production. It allows stakeholders to track ETH price, building trust and confidence in the supply chain.."
-                date="2023"
-                link="https://supplychain-six.vercel.app/"
-              />
-            </div>
+
           </div>
 
           <div>

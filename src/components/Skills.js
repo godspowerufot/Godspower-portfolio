@@ -1,18 +1,17 @@
 import { motion } from "framer-motion";
 import React, { useRef } from "react";
 
-const Skill = ({ name, x, y }) => {
-  const ref = useRef(null);
+const Skill = ({ name }) => {
   return (
     <motion.div
-      ref={ref}
       whileHover={{ scale: 1.05 }}
-      initial={{ x: 0, y: 0 }}
-      whileInView={{ x: x, y: y, transition: { duration: 1.5 } }}
+      initial={{ y: 50, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5 }}
       viewport={{ once: true }}
-      className="cursor-default w-max origin-center absolute 
+      className="cursor-default w-max origin-center 
        font-semibold bg-dark text-light py-3 px-6 rounded-full dark:bg-light dark:text-dark
-       lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3  xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold
+       lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3  xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold border border-dark dark:border-light
        "
     >
       {name}
@@ -29,33 +28,28 @@ const Skills = () => {
       </h2>
       <div
         ref={ref}
-        className="w-full h-[100vh] relative bg-circularLight dark:bg-circularDark  flex items-center justify-center 
-      mb-64 md:mb-32 rounded-full
-      lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd 
-      sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 
+        className="w-full relative flex flex-wrap items-center justify-center gap-8 
+      my-32 md:my-16 lg:h-auto sm:h-auto
       "
       >
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          className="cursor-default flex rounded-full font-semibold bg-dark text-light px-6 py-7 shadow-dark
-        dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
-        "
-        >
-          Web
-        </motion.div>
-
-        <Skill name="HTML" x="-20vw" y="2vw" />
-        <Skill name="Tailwind" x="-5vw" y="-10vw" />
-        <Skill name="JavaScript" x="20vw" y="6vw" />
-        <Skill name="TypeScript" x="0vw" y="12vw" />
-        
-        <Skill name="NextJs" x="15vw" y="-12vw" />
-        <Skill name="Git" x="-30vw" y="-5vw" />
-        <Skill name="React" x="32vw" y="-5vw" />
-        <Skill name="Firebase" x="0vw" y="-18vw" />
-        <Skill name="Solidity" x="35vw" y="-10vw" />
-        <Skill name="EtherJs" x="31vw" y="10vw" />
-        <Skill name="ReduxAPI" x="38vw" y="10vw" />
+        <Skill name="Web" />
+        <Skill name="HTML" />
+        <Skill name="Tailwind" />
+        <Skill name="JavaScript" />
+        <Skill name="TypeScript" />
+        <Skill name="NextJs" />
+        <Skill name="Git" />
+        <Skill name="React" />
+        <Skill name="Firebase" />
+        <Skill name="Solidity" />
+        <Skill name="EtherJs" />
+        <Skill name="ReduxAPI" />
+        <Skill name="Communication" />
+        <Skill name="Problem-Solving & Critical Thinking" />
+        <Skill name="Adaptability & Continuous Learning" />
+        <Skill name="Collaboration & Teamwork" />
+        <Skill name="Listening" />
+        <Skill name="Time Management" />
       </div>
     </>
   );
